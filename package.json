@@ -20,16 +20,16 @@
 		"keybindings": [
 			{
 				"command": "extension.insertSemicolonAtTheEnd",
-				"key": "Win+;",
-				"mac": "Cmd+;",
-				"linux": "Meta+;",
+				"key": "Alt+;",
+				"mac": "Alt+;",
+				"linux": "Alt+;",
 				"when": "editorTextFocus"
 			},
 			{
 				"command": "extension.insertCommaAtTheEnd",
-				"key": "Win+,",
-				"mac": "Cmd+,",
-				"linux": "Meta+,",
+				"key": "Alt+,",
+				"mac": "Alt+,",
+				"linux": "Alt+,",
 				"when": "editorTextFocus"
 			}
 		]
