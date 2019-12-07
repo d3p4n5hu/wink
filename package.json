@@ -2,7 +2,9 @@
 	"name": "wink",
 	"displayName": "Wink",
 	"description": "A VSCode extension that registers some new keyboard shortcuts to insert semi-colon/comma at the end of line",
-	"version": "0.0.1",
+	"version": "1.0.0",
+	"publisher": "d3p4n5hu",
+	"repository": "https://github.com/d3p4n5hu/wink",
 	"engines": {
 		"vscode": "^1.40.0"
 	},
@@ -10,14 +12,25 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:extension.insertSemicolonAtTheEnd",
+		"onCommand:extension.insertCommaAtTheEnd"
 	],
 	"main": "./extension.js",
 	"contributes": {
-		"commands": [
+		"keybindings": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
+				"command": "extension.insertSemicolonAtTheEnd",
+				"key": "Win+;",
+				"mac": "Cmd+;",
+				"linux": "Meta+;",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "extension.insertCommaAtTheEnd",
+				"key": "Win+,",
+				"mac": "Cmd+,",
+				"linux": "Meta+,",
+				"when": "editorTextFocus"
 			}
 		]
 	},
