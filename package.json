@@ -2,7 +2,7 @@
 	"name": "wink",
 	"displayName": "Wink",
 	"description": "A VSCode extension that registers some new keyboard shortcuts to insert semi-colon/comma at the end of line",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "d3p4n5hu",
 	"repository": "https://github.com/d3p4n5hu/wink",
 	"engines": {
